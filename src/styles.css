@@ -1,0 +1,74 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000;
+  color: #0f0;
+  font-family: "Courier New", monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0f0;
+  text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 15px #0f0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0f0;
+  text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 15px #0f0;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="tel"] {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  background-color: #003300;
+  color: #0f0;
+  font-family: "Courier New", monospace;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+button {
+  display: block;
+  width: 20%;
+  padding: 8px 30px;
+  background-color: #003300;
+  color: #0f0;
+  border: 1px solid #1630be;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #00cc00;
+}
+
+body {
+  background-color: #000;
+}
+
+.footer {
+  margin-top: 20px;
+  color: #0f0;
+  font-size: 12px;
+  text-align: center;
+}
